@@ -1,4 +1,4 @@
-package javaProjects;
+package javaProjects.passingOfObj;
 
 public class stinkiness {
 

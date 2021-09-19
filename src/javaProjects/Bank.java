@@ -1,4 +1,4 @@
-import javaProjects.CheckingAccount;
+package javaProjects;
 
 public class Bank{
     private CheckingAccount accountOne;

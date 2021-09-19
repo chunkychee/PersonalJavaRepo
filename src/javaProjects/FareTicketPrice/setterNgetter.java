@@ -1,4 +1,4 @@
-package javaProjects;
+package javaProjects.FareTicketPrice;
 
 public class setterNgetter {
 

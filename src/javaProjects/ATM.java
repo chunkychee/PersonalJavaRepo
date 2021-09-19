@@ -1,3 +1,5 @@
+package javaProjects;
+
 public class ATM{
 
     public static int variableA = 0;

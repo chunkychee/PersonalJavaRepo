@@ -1,3 +1,5 @@
+package javaProjects;
+
 import java.util.ArrayList;
 
 public class homeStuffArrayList {
