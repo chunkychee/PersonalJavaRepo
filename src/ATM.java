@@ -1,5 +1,3 @@
-package javaTesting;
-
 public class ATM{
 
     public static int variableA = 0;

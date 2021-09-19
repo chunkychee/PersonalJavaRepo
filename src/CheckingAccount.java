@@ -1,72 +1,31 @@
 public class CheckingAccount{
     private String name;
-    private int balance;
+    private static int balance;
     private String id;
-    private int newBalance;
-
+    private double interestRate;
 
     public CheckingAccount(String inputName, int inputBalance, String inputId){
-        name = inputName;
-        balance = inputBalance;
-        id = inputId;
+        this.name = inputName;
+        this.balance = inputBalance;
+        this.id = inputId;
+        this.interestRate = 0.02;
     }
 
-    public int setBalance(int newBalance){
-       balance = newBalance;
-       return balance;
+    public void getAccountInformation(){
+        System.out.println("Money in account: " + this.getBalance());
+        System.out.println("Next Month's Interest: " + this.calculateNextMonthInterest());
+
     }
 
-    public int getBalance(){
+    private int getBalance(){
         return this.balance;
     }
+
+    // Write the calculateNextMonthInterest() here
+    private double calculateNextMonthInterest(){
+        return this.balance * interestRate;
+
+
+    }
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//public class CheckingAccount{
-//    private String name;
-//    private int balance;
-//
-//    public CheckingAccount(String inputName, int inputBalance){
-//        name = inputName;
-//        balance = inputBalance;
-//    }
-//
-//    private void addFunds(int fundsToAdd){
-//        balance += fundsToAdd;
-//    }
-//
-//    private void getInfo(){
-//        System.out.println("This checking account belongs to " + name +". It has " + balance + " dollars in it.");
-//        return sum;
-//    }
-//
-//    public static void main(String[] args) {
-//        CheckingAccount myAccount = new CheckingAccount("kik" , 90);
-//        myAccount.addFunds(5));
-//        System.out.println();
-//    }
-//
-//}
