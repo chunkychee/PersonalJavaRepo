@@ -1,4 +1,4 @@
-package polymorphismPlusInheritance;
+package polymorphism.fruits;
 
 public class apple extends pineapple {
       int boys;

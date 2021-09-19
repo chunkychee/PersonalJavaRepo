@@ -1,3 +1,5 @@
+package GradesLoop;
+
 import java.util.Scanner;
 
 

@@ -1,3 +1,5 @@
+package javaProjects;
+
 public class CheckingAccount{
     private String name;
     private static int balance;

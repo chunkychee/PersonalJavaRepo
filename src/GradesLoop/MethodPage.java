@@ -1,3 +1,5 @@
+package GradesLoop;
+
 public class MethodPage {
    private int age;
    private String name;

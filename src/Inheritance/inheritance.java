@@ -1,3 +1,8 @@
+package Inheritance;
+
+import Inheritance.chicks;
+import Inheritance.ducklings;
+
 public class inheritance {
 
     public static void main(String[] args) {

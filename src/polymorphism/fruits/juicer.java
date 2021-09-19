@@ -1,4 +1,4 @@
-package polymorphismPlusInheritance;
+package polymorphism.fruits;
 
 
 public class juicer {

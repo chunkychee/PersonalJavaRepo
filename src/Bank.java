@@ -1,3 +1,5 @@
+import javaProjects.CheckingAccount;
+
 public class Bank{
     private CheckingAccount accountOne;
     private CheckingAccount accountTwo;

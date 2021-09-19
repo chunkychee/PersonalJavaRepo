@@ -1,4 +1,4 @@
-package polymorphismPlusInheritance;
+package polymorphism.animals;
 
 public class dog extends animal {
     double jumps;

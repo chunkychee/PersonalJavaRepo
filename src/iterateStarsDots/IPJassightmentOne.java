@@ -1,3 +1,4 @@
+package iterateStarsDots;
 
 public class IPJassightmentOne {
 
