@@ -5,19 +5,12 @@ import java.util.Arrays;
 
 public class Array {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        System.out.println("input NumOfNums: ");
-        int index = 0;
-        int NumOfNums = input.nextInt();
-        int[] Array = new int[NumOfNums];
-
-
-        for (; NumOfNums >= Array.length - (index +1); NumOfNums--) {
-                Array[index] = (NumOfNums - (NumOfNums - index));
-                index++;
-            System.out.println(Arrays.toString(Array));
-        }
-
+        int[] mathGrade = new int[5];
+        int[] mathGrades = {45,23,3,1,31,1,32,23,23,53,12};
+        System.out.println(mathGrade.length);
+        int length = mathGrades.length;
+        System.out.println(length);
+        System.out.println(Arrays.toString(mathGrades));
 
 
     }

@@ -2,7 +2,7 @@ package Interface;
 
 public interface phoneCasingManu {
 
-    public void phoneCasing();
-    public void phonedockel();
+    public int phoneCasing();
+    public boolean phonedockel();
 
 }

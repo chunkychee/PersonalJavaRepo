@@ -4,17 +4,20 @@ public class inheritance {
 
     public static void main(String[] args) {
 
-    chicks chicken = new chicks();
+    chicks chicken = new chicks("chicky" , 5);
+    ducklings duck = new ducklings();
+    calfs cow = new calfs();
+
     chicken.chicksCalling();
     chicken.chicksFood();
 
-    ducklings duck = new ducklings();
-    duck.chicksCalling();
+    duck.ducklingCalling();
     duck.chicksColour();
+    System.out.println();
 
-    calfs cow = new calfs();
-        cow.chicksCalling();
-        cow.ducksCalling();
+    cow.chicksCalling();
+    cow.cowCalling();
+
 
 
     }

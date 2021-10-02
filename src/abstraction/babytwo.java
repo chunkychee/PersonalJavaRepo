@@ -1,12 +1,11 @@
 package abstraction;
 
 public class babytwo extends mainClass {
-    int timeToPoop;
-    int timeToPlay;
+     int timeToPoop;
+     int timeToPlay;
 
 
     babytwo(int timeToPoop, int timeToPlay){
-        super(timeToPlay);
         this.timeToPoop = timeToPoop;
         this.timeToPlay = timeToPlay;
     }

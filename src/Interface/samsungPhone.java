@@ -3,7 +3,6 @@ package Interface;
 public class samsungPhone implements phoneManufacturer, phoneCasingManu, phoneScreenProtector {
 
 
-
     @Override
     public void ring() {
         System.out.println("ringRing");
@@ -15,17 +14,19 @@ public class samsungPhone implements phoneManufacturer, phoneCasingManu, phoneSc
     }
 
     @Override
-    public void phoneCasing() {
-        System.out.println("hard casing ");
+    public int phoneCasing() {
+        int sum = 5;
+        return sum;
+
     }
 
     @Override
-    public void phonedockel() {
-        System.out.println("keychain");
+    public boolean phonedockel() {
+        return true;
     }
 
     @Override
-    public void matteBlack() {
+    public void matteBlack(int age, String name) {
         System.out.println("one glass");
     }
 

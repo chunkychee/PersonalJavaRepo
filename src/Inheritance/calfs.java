@@ -1,8 +1,12 @@
 package Inheritance;
 
-public class calfs extends ducklings {
+public class calfs extends chicks {
 
-    public void ducksCalling(){
+    calfs(){
+        super("cowzxc" , 100);
+    }
+
+    public void cowCalling(){
         System.out.println("moo, moo");
     }
 }

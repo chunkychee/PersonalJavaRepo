@@ -1,7 +1,11 @@
 package abstraction;
 
 public abstract class mainClass {
-    int timeToCry;
+    protected int timeToCry;
+
+    mainClass(){
+
+    }
 
     mainClass(int timeToCry){
         this.timeToCry = timeToCry;
@@ -14,7 +18,7 @@ public abstract class mainClass {
 
 
     public static void main(String[] args) {
-        mainClass[] main = {new babyone(3)};
+        mainClass[] main = new mainClass[0];
 
         mainClass han = new babyone(5);
         babytwo hantwo = new babytwo(1,3);

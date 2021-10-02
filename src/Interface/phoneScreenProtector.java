@@ -3,8 +3,7 @@ package Interface;
 public interface phoneScreenProtector {
 
 
-    public void matteBlack() ;
-
+    public void matteBlack(int age, String name);
     public void clearGlass();
 
 }

@@ -11,7 +11,7 @@ public interface phoneManufacturer {
         samsungPhone samsung = new samsungPhone();
         samsung.ring();
         samsung.call(4);
-        samsung.matteBlack();
+        samsung.matteBlack(3,"12");
     }
 
 }

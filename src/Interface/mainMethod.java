@@ -6,8 +6,8 @@ public class mainMethod {
     public static void main(String[] args) {
         samsungPhone samsung = new samsungPhone();
         samsung.ring();
-        samsung.call(4);
-        samsung.matteBlack();
+        System.out.println(samsung.call(4));
+        samsung.matteBlack(4 , "iphone");
     }
 
 }

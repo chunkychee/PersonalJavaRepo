@@ -1,10 +1,14 @@
 package Inheritance;
 
-
 public class ducklings extends chicks {
 
-public void ducksCalling(){
-    System.out.println("quack, quack");
-}
+    ducklings() {
+        super("lol", 1003);
+    }
+
+
+    public void ducklingCalling() {
+        System.out.println("quack, quack");
+    }
 
 }

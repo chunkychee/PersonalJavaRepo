@@ -1,9 +1,21 @@
 package Inheritance;
-
 public class chicks {
 
+    String name;
+    int age;
+    int numOfFeather;
 
-   public void chicksCalling(){
+    chicks(){
+
+    }
+
+
+    chicks(String name,int age){
+        this.name = name;
+        this.age = age;
+    }
+
+    public void chicksCalling(){
        System.out.println("chirp chirp");
    }
     public void chicksFood(){
