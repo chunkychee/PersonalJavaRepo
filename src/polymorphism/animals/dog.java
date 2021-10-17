@@ -5,6 +5,9 @@ public class dog extends animal {
     double pants;
     double workout;
 
+    dog(String hairy) {
+        super(hairy);
+    }
 
 
     public void poop() {

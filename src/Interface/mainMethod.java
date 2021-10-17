@@ -8,6 +8,7 @@ public class mainMethod {
         samsung.ring();
         System.out.println(samsung.call(4));
         samsung.matteBlack(4 , "iphone");
+        System.out.println(samsung.coloring());
     }
 
 }

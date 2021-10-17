@@ -1,6 +1,11 @@
 package polymorphism.animals;
 
 public class animal {
+    String hairy;
+
+    animal(String hairy){
+    this.hairy = hairy;
+    }
 
     public void eat() {
         System.out.println("munch");
@@ -15,10 +20,12 @@ public class animal {
     }
 
     public static void main(String[] args) {
-        cat kitty = new cat();
-        dog doggy = new dog();
+        cat kitty = new cat("fur");
+        dog doggy = new dog("fur");
+        animal animal = new animal("fur");
 
-        kitty.pounce();
+
+
         kitty.poop();
         doggy.sleep();
         kitty.sleep();

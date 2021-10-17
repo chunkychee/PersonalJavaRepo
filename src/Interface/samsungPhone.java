@@ -1,6 +1,6 @@
 package Interface;
 
-public class samsungPhone implements phoneManufacturer, phoneCasingManu, phoneScreenProtector {
+public class samsungPhone implements phoneManufacturer, phoneCasingManu, phoneScreenProtector, phoneColoring {
 
 
     @Override
@@ -33,5 +33,11 @@ public class samsungPhone implements phoneManufacturer, phoneCasingManu, phoneSc
     @Override
     public void clearGlass() {
         System.out.println("can see the screen");
+    }
+
+    @Override
+    public String coloring() {
+        String colour1 = "pink";
+        return colour1;
     }
 }
