@@ -6,7 +6,4 @@ public class calfs extends chicks {
         super("cowzxc" , 100);
     }
 
-    public void cowCalling(){
-        System.out.println("moo, moo");
-    }
 }

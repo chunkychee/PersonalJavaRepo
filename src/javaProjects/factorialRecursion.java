@@ -1,3 +1,5 @@
+package javaProjects;
+
 public class factorialRecursion {
      int total;
      int temp;

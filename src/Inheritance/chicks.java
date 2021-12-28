@@ -3,13 +3,6 @@ public class chicks {
 
     String name;
     int age;
-    int numOfFeather;
-
-    chicks(){
-
-    }
-
-
     chicks(String name,int age){
         this.name = name;
         this.age = age;
@@ -23,6 +16,13 @@ public class chicks {
     }
     public void chicksColour(){
         System.out.println("yellow");
+    }
+    public final void cowCalling(){
+        System.out.println("mozz mozz");
+    }
+
+    public void changeCowwCalling(){
+        cowCalling();
     }
 
 

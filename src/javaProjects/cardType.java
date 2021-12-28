@@ -1,3 +1,5 @@
+package javaProjects;
+
 import java.util.Scanner;
 import java.util.Arrays;
 public class cardType {

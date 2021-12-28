@@ -21,14 +21,16 @@ public class AccountSystem {
         while (object.inputBalance <= 0);
 
         do {
-            System.out.println(/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            System.out.println("""
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
                      1.Account Status
                      2.Withdrawal
                      3.Deposits
                      99.Exit
                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
                      Please Select Above Option:
-                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/);
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                    """);
 
             inputOption = input.nextInt();
             switch (inputOption) {
